@@ -1,5 +1,5 @@
 # Practice
-This is a test repository to exercise the workflow 
+This is a test repository to exercise the workflow \\
 Basic git commands:
 git init (initialize, that is create the .git in the local directory) 
     add . (add all the files contained in the local directory )

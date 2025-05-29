@@ -9,3 +9,5 @@ git init (initialize, that is create the .git in the local directory)
 git clone http..(it makes  a copy of a remote file )  
 git remote add origin http... (Like a shortcut in order to operate commands as it was reffered   
                                to a local folder )  
+
+This text was added locally and should be pushed

@@ -11,3 +11,7 @@ git remote add origin http... (Like a shortcut in order to operate commands as i
                                to a local folder )  
 
 This text was added locally and should be pushed
+
+
+git restore --source=<hash> (restore the folder in a previous state defined by the commit)  
+

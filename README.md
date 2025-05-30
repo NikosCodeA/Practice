@@ -18,5 +18,5 @@ git restore --source=<hash> -- . (restore the folder in a previous state defined
 
 git revert (Safe for shared commits since it does not  delete any commits )
 git rebase -i (-i means interactive. You can edit the commits, that is change description or d
-                elete)
+                elete) pick the first and squash all the others 
                 

@@ -11,10 +11,12 @@ git clone http..(it makes  a copy of a remote file )
 git remote add origin http... (Like a shortcut in order to operate commands as it was reffered   
                                to a local folder )  
 
-This text was added locally and should be pushed
-
 
 git restore --source=<hash> -- . (restore the folder in a previous state defined by the commit)  
 
 -> HEAD~5   : That means 5 commits back from HEAD
 
+git revert (Safe for shared commits since it does not  delete any commits )
+git rebase -i (-i means interactive. You can edit the commits, that is change description or d
+                elete)
+                

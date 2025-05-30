@@ -1,0 +1,7 @@
+1. For file transfer:
+  scp scp /path/to/local/file user@remote_host:/path/to/remote/directory (local to remote)
+  scp user@remote_host:/path/to/remote/file /path/to/local/directory (remote to local)
+
+2. For incremental transfer (send changes)  
+  rsync rsync -avz /path/to/local/source user@remote_host:/path/to/remote/destination (common options: a for archive, v for verbose, z for compress)
+

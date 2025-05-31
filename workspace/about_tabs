@@ -1,0 +1,12 @@
+This file contains information about tabs in vim
+
+:set list (displays tabs)
+:set nolist
+:set listchars=tab:▸\ ,eol:$,trail:·
+
+in the normal mode go to a character and press
+ga 
+-> it will display information about the char 
+
+:%!xxd  (send the buffer to xxd, in order to display the whole thing in decimal)
+:%!xxd -r 

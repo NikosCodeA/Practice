@@ -20,3 +20,8 @@ git revert (Safe for shared commits since it does not  delete any commits )
 git rebase -i (-i means interactive. You can edit the commits, that is change description or d
                 elete) pick the first and squash all the others 
                 
+
+git cat-file -t <HASH> (Show what kind of thing is the object described by <HASH>)                
+git cat-file [commit|tree|blob|tag] (show the file decripted)
+git ls-tree <HASH> (show the tree decripted )
+

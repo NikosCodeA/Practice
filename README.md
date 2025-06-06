@@ -22,7 +22,10 @@ git restore --source=<hash> -- . (restore the folder in a previous state defined
 
 git revert (Safe for shared commits since it does not  delete any commits )
 git rebase -i (-i means interactive. You can edit the commits, that is change description or d
-                elete) leave the first and squash (s) all the others 
+                elete) leave the first and squash (s) all the others. If you want to change 
+                the description of a commit replace <pick> with <reword>. After that 
+                write git rebase --continue 
+git commit --amend (Change the last commit message) 
     reset --hard <HASH> (Goes to the commit mentioned by <HASH> and deletes all 
                             other commits after it )                
                 

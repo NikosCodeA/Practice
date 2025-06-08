@@ -1,4 +1,6 @@
 # Practice
+(This directory will stay the same except this specific file)
+
 This is a test repository to exercise the workflow (i have the description of 
 some of the git commands so as to remember )   
 Basic git commands: 
@@ -33,4 +35,6 @@ git commit --amend (Change the last commit message)
 git cat-file -t <HASH> (Show what kind of thing is the object described by <HASH>)                
 git cat-file [commit|tree|blob|tag] (show the file decripted)
 git ls-tree <HASH> (show the tree decripted )
+
+
 
